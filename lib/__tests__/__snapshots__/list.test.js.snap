@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List has a decorate static which allows it to share state with a specified array 1`] = `"Argument to List.decorate must be an array"`;
