@@ -7,7 +7,7 @@ A simple `List` implementation. When the authors of the es6 created `Map` and `S
 
 Here it is.
 
-Package includes typescript libdefs. Suitable for node or browser environments. Supports native es imports in `node > 13.2`. Supports native es imports in `node > 13.2`.
+Package includes typescript libdefs. Suitable for node or browser environments. Supports native es imports in `node > 13.2`.
 
 ## Usage
 
@@ -25,6 +25,8 @@ fruits.pop(); // 'orange';
 const array = [1, 2, 3];
 const list = List.decorate(array);
 ```
+
+Until Typescript supports [package exports](https://github.com/microsoft/TypeScript/issues/33079) you must enable `esModuleInterop` to use this module.
 
 ## API
 

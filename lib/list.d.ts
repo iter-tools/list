@@ -1,3 +1,5 @@
+/// <reference lib="es6" />
+
 declare class List<T> {
   /**
    * Returns true if `inst` is a `List`.
@@ -35,7 +37,7 @@ declare class List<T> {
 
   shift(): T;
 
-  forEach(cb: (value: T, index: T, set: Set) => any): void;
+  forEach(cb: (value: T, index: T, list: List<T>) => any): void;
 
   keys(): IterableIterator<T>;
 
@@ -46,4 +48,4 @@ declare class List<T> {
   [Symbol.iterator](): IterableIterator<T>;
 }
 
-export = List;
+export default List;
