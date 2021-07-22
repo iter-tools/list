@@ -58,9 +58,30 @@ declare class List<T> {
   size: number;
 
   /**
+   * The first value in the list
+   */
+  readonly first: T;
+
+  /**
+   * The first value in the list
+   */
+  readonly last: T;
+
+  /**
    * Empties the list of all values.
    */
   clear();
+
+  /**
+   * Returns the value at `index`.
+   */
+  get(index: number): boolean;
+
+  /**
+   * Returns the value at `index`. If index is negative it is
+   * refers to an offset from the end, where `-1` is the last value
+   */
+  at(index: number): boolean;
 
   /**
    * Returns `true` if there is a value at `index`.

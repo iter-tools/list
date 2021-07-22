@@ -1,6 +1,6 @@
 {
   "name": "@iter-tools/list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An es6-style iterable List",
   "main": "lib/list.cjs",
   "module": "lib/list.mjs",
@@ -40,7 +40,7 @@
     "isList",
     "extend"
   ],
-  "repository": "git@github.com:iter-tools/set.git",
+  "repository": "git@github.com:iter-tools/list.git",
   "author": "Conrad Buck <conartist6@gmail.com>",
   "license": "MIT",
   "devDependencies": {
